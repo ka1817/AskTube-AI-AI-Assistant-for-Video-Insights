@@ -1,0 +1,12 @@
+langchain 
+langchain_groq 
+langchain-community 
+fastapi 
+streamlit 
+pydantic 
+python-dotenv
+langchain-core
+youtube-transcript-api 
+uvicorn
+langchain_huggingface
+faiss-cpu
