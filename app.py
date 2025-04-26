@@ -1,16 +1,13 @@
 import streamlit as st
 import requests
 
-# App Configuration
 st.set_page_config(page_title="🎬 AskTube AI", layout="centered", page_icon="🔍")
 st.title("🔍 **AskTube AI**")
 st.markdown("##### _Unlock Insights from Any YouTube Video Instantly_ 📽️💡")
 
-# Session State Initialization
 if "video_entered" not in st.session_state:
     st.session_state.video_entered = False
 
-# Sidebar Input
 with st.sidebar:
     st.header("🎥 Enter YouTube Video ID")
     st.markdown("Example: `dQw4w9WgXcQ`")
@@ -23,7 +20,6 @@ with st.sidebar:
             st.session_state.video_entered = True
             st.success("✅ Video ID submitted!")
 
-# Main Interaction Area
 if st.session_state.video_entered:
     video_id = st.session_state.video_id
     st.subheader(f"🤔 Ask me anything about this video: `{video_id}`")
