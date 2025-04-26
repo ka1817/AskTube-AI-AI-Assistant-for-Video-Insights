@@ -103,7 +103,7 @@ docker-compose up
 - 📆 Automated builds & tests via GitHub Actions.
 
 ---
-![image alt](https://github.com/ka1817/AskTube-AI-Assistant-for-Video-Insights/blob/38f40516e8b45b5cde6a91e61c1406a21d29ccbc/Project_Template.png)
+![image alt](https://github.com/ka1817/AskTube-AI-Assistant-for-Video-Insights/blob/33eb40973f0484cc07f04a263bfd10afda3f3611/Project_Template.png)
 ---
 
 >  Developed by Pranav Reddy
